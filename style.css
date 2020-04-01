@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", serif;
+}
+
+.nav {
+  background: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.img-logo {
+  width: 160px;
+}
+
+.subscribe {
+  background: white;
+  color: red;
+  padding: 2px 0.75em;
+}
+
+.sign-in {
+  margin-right: 1em;
+  color: white;
+}
+
+.sign-in:hover {
+  color: white;
+}
+
+.subscribe:hover {
+  color: red;
+}
+
+.nav-anchor-class a:hover {
+  text-decoration: none;
+}
