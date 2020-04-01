@@ -1,12 +1,14 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Roboto Condensed", serif;
 }
 
+.navbar-sticky,
 .nav {
   background: red;
   display: flex;
@@ -14,31 +16,80 @@ body {
   align-items: center;
   font-size: 17px;
   font-weight: 900;
+  padding: 0.25em 0;
+  padding-right: 1em;
+}
+
+.navbar-sticky {
+  position: sticky;
+}
+
+.nav {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .img-logo {
-  width: 160px;
+  width: 165px;
+}
+
+.nav-logo {
+  width: 30em;
 }
 
 .subscribe {
   background: white;
   color: red;
   padding: 2px 0.75em;
+  margin-right: 1em;
+  font-size: 900;
 }
 
 .sign-in {
   margin-right: 1em;
   color: white;
+  font-size: 900;
 }
 
 .sign-in:hover {
   color: white;
 }
 
+.nav-links a:hover,
 .subscribe:hover {
+  text-decoration: none;
   color: red;
 }
 
 .nav-anchor-class a:hover {
   text-decoration: none;
 }
+
+.nav-links {  
+  position: absolute;
+  max-width: 75%;
+  top: 10em;
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 1em;
+  border-bottom: 1px solid grey;
+}
+
+.nav-links a {
+  border-right: 1px solid grey;
+  /* padding: 0 1.75em;   */
+  color: black;
+  font-weight: 900;  
+}
+
+.search-box {
+  position: absolute;
+  right: 1px;
+  width: 65px;
+  border: none;
+  background: white;
+}
+
