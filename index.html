@@ -4,49 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>newsweek - News, Analysis, Politics, Business</title>
-  <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto Condensed">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Condensed">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <nav class="navbar-sticky">
-      <a class="logo" href="#"><img class="img-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
-    
-      <div class="nav-anchor-class">
-        <a class = "sign-in" href="#">SIGN IN</a>
-        <a class = "subscribe" href="#">SUBSCRIBE ></a>
-
-        <button class="navbar-toggler navbar-dark" type="button">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-sticky d-block d-lg-none d-xl-none ">
+      <div class="container-fluid">
+        <a class="nabvar-brand" href="#"><img class="img-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
+      
+        <div class="nav-anchor-class d-inline-block">
+            <a class="sign-in" href="#">SIGN IN</a>
+            <a class="subscribe py-1 px-3 mr-3" href="#">SUBSCRIBE ></a>     
+          
+          <button class="btn" type="button">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
       </div>
     </nav>
     
-    <!-- <nav class="container-fluid nav">
-      <div class="navbar-date">Tue, Mar 31, 2020</div>
-      <a href="#"><img class="nav-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
-      <div class="nav-anchor-class">
-        <a class = "sign-in" href="#">SIGN IN</a>
-        <a class = "subscribe" href="#">SUBSCRIBE ></a>
-      </div> -->
-      <!-- <div class="nav-links">
-        <a href="#">U.S.</a>
-        <a href="#">World</a>
-        <a href="#">Business</a>
-        <a href="#">Tech & Science</a>
-        <a href="#">Culture</a>
-        <a href="#">Newsgeek</a>
-        <a href="#">Sports</a>
-        <a href="#">Health</a>
-        <a href="#">The Debate</a>
-        <a href="#">Vantage</a>
-        <a href="#">Wather</a>      
-      </div> -->
-    <!-- </nav> -->
+    <!-- <div class="masterhead">
+      <div class="container-fluid">
+        <div class="text-center">Welcome</div>
+      </div>
+    </div> -->
 
-    
+    <div class="d-none d-lg-block mr-auto ml-auto lg-navbar">
+        <nav class="container-fluid navbar-sticky d-flex justify-content-between align-items-baseline">
+          <div class="navbar-date">Tue, Mar 31, 2020</div>
+
+          <a href="#"><img class="nav-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
+
+          <div class="nav-anchor-class d-inline-block">
+            <a class="sign-in" href="#">SIGN IN</a>
+            <a class="subscribe py-1 px-3 mr-3" href="#">SUBSCRIBE ></a> 
+          </div>    
+        </nav>
+
+        <div class="link p-2">
+          <ul class="nav nav-pills justify-content-evenly">
+            <li class="nav-item"> <a class="nav-link" href="#">U.S.</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">World</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Tech & Science</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Culture</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Newsgeek</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Sports</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Health</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">The Debate</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Vantage</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Wather</a> </li>
+          </ul>  
+        </div>
+    </div>
 
     <!-- <input class="search-box" type="text" placeholder="Search"/> -->
   </header>
@@ -139,9 +151,9 @@
   </aside>
 
   <footer></footer>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/esm/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <Script src="js/all.js"></Script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
