@@ -48,56 +48,66 @@ body {
   color: white;
 }
 
-.link {  
-  position: absolute;
-  top: 6.5em;
+.link {
+  top: 6.7em;
   background: white;
-  border-bottom: 1px solid grey;  
 }
 
 .nav-link {
-  border-right: 1px solid grey;
   color: black;
-  font-weight: 900;  
+  font-weight: 900;
+  font-size: 1rem;
+
 }
 
-/* .navbar-sticky {
-  position: sticky;
+main {
+  max-width: 1320px;
+  background: white;
 }
 
-.nav {
-  position: relative;
-  max-width: 80%;
-  margin: 0 auto;
+.img-top {
+  width: 100%;
+}
+
+.opinion-img {
+  width: 60px;
+  background: red;
+  z-index: 1;
+}
+
+.round-0-img {
+  width: 100px;
+}
+
+.debate-div-1 {
+  margin-top: 1em;
+  border-top: 4px solid #F73559;
+  border-bottom-style: double;
+  padding-bottom: 1em;
+}
+
+.debate-div-2 {
+  margin-top: -2em;
+}
+
+.vs {
+
+  background: black;
+  width: 40px;
+  color: silver;
+  font-size: 14px;
+  font-weight: 900;
 }
 
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
 
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
 
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
 
-
-
-
-
-
-
-
-
-.nav-anchor-class a:hover {
-  text-decoration: none;
-}
-
-
-
-
-
-/* .search-box {
-  position: absolute;
-  right: 1px;
-  width: 65px;
-  border: none;
-  background: white; */
-
-
-
-
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }

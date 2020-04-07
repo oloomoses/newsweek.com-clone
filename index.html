@@ -43,87 +43,216 @@
           </div>    
         </nav>
 
-        <div class="link p-2">
-          <ul class="nav nav-pills justify-content-evenly">
-            <li class="nav-item"> <a class="nav-link" href="#">U.S.</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">World</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Business</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Tech & Science</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Culture</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Newsgeek</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Sports</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Health</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">The Debate</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Vantage</a></li>
+        <div class="link position-absolute p-2 border-bottom">
+          <ul class="nav navbar-expand-md justify-content-evenly">
+            <li class="nav-item border-right"> <a class="nav-link" href="#">U.S.</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">World</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Tech & Science</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Culture</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Newsgeek</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Sports</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Health</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">The Debate</a></li>
+            <li class="nav-item border-right"> <a class="nav-link" href="#">Vantage</a></li>
             <li class="nav-item"> <a class="nav-link" href="#">Wather</a> </li>
           </ul>  
+
+          
         </div>
     </div>
 
     <!-- <input class="search-box" type="text" placeholder="Search"/> -->
   </header>
 
-  <main class="container-fluid">
+  <main class="container-fluid main">
+  
 
+    <section class="row text-left">
 
-    <div class="row text-left">
-      <div class="col-md-6 col-lg-4">
-        <div class="featured-stories">
-          <h3 class="text-secondary">TOP STORY</h3>
-          <img src="images/times-square-new-york.webp">
-          <h2>Class Action Lawsuits Related to Coronavirus Spike Across the Country</h2>
-          <p>As employers adjust to new work-from-home requirements, new 
-            liabilities can arise that human resources 
-            managers have not traditionally had to consider.
-          </p>
-        </div>        
-      </div>
+      <div class="col-md-5 col-lg">
 
-      <div class="col-md-6 col-lg-4">
         <div class="insights">
-          <h3 class="text-secondary">FEATURED STORIES</h3>
-          <img src="images/times-square-new-york.webp" alt="img">
-          <h2>Class Action Lawsuits Related to Coronavirus Spike Across the Country</h2>
+          <p class="text-secondary h-title">FEATURED STORIES</p>
+          <img class="img-top" src="images/tony-blair-joe-biden-2020-donald-trump.webp" alt="img">
+          <p><strong>Class Action Lawsuits Related to Coronavirus Spike Across the Country</strong></p>
           <p>As employers adjust to new work-from-home requirements, new 
             liabilities can arise that human resources 
             managers have not traditionally had to consider.
           </p>
         </div>
-      </div>
 
-      <div class="col-lg-4">
-        <div class="opinion">
-          <h3 class="text-secondary">OPINION</h3>
-          <div class="row text-left padding">
-            <div class="col-3">
-              <img src="images/joe-biden-bernie-sanders.webp" class="img-fluid rounded-circle opinion-img" alt="img">
-            </div>
-            <div class="col">
-              <h4>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</h4>
-              <h4 class="text-secondary">By Doug Gordon</h4>
-            </div>
+        <div class="card" style="width: auto;">
+          <img src="images/per-president-01.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Weathering the Perfect Storm</h5>
+            <p class="card-text">
+              COVID-19 is not our only enemy. While the world confronts a pandemic, 
+              our critical infrastructure is vulnerable to cyberattack. 
+              Read this new report on where the weak points are
+              and how to strengthen defenses against terrorists and cyber-criminals.
+            </p>
           </div>
         </div>
-        <div class="debate">Debate</div>
-      </div>
-    </div>
 
-    <!-- <div class="row text-center">
-      <div class="col-md-6 col-lg-4">
-        <div class="featured-stories">Insights</div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
+
+
+      <div class="col-md-7 col-lg-5">
+        <div class="featured-stories">
+          <p class="text-secondary h-title">TOP STORY</p>
+          <img class="img-top" src="images/tony-blair-joe-biden-2020-donald-trump.webp">
+          <p class="h5">Class Action Lawsuits Related to Coronavirus Spike Across the Country</p>
+          <p>As employers adjust to new work-from-home requirements, new 
+            liabilities can arise that human resources 
+            managers have not traditionally had to consider.
+          </p>
+        </div>
         <div class="top-story">Heroes of Pandemic</div>
         <div class="culture-travel">Culture and Travel</div>
         <div class="more-stories">More Stories</div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="latest-news">Latest News</div>
+
+
+      <div class="col-lg">
+        <div class="opinion">
+          <p class="text-secondary h-title">OPINION</p>
+
+          <div class="text-left d-flex mb-3">
+            <div class="mr-2">
+              <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p4>
+              <h4 class="text-secondary">By Doug Gordon</h4>
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3">
+            <div class="mr-2">
+              <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p4>
+              <h4 class="text-secondary">By Doug Gordon</h4>
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3">
+            <div class="mr-2">
+              <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p4>
+              <h4 class="text-secondary">By Doug Gordon</h4>
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3">
+            <div class="mr-2">
+              <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p4>
+              <h4 class="text-secondary">By Doug Gordon</h4>
+            </div>
+          </div>         
+          
+        </div>
+
+
+        <div class="debate">
+          <p class="text-secondary h-title">DEBATE</p>
+
+          <div class="text-left d-flex align-items-center mb-3 position-relative debate-div-1">
+            <div class="mr-3">
+              <img src="images/joe-biden.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center debate-div-2">  
+            <p class="debate-p pt-4">By Doug Gordon</p>
+            <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+          </div>
+
+          <p class="rounded-circle vs text-center mr-auto ml-auto mt-4 p-2">VS</p>
+
+          <div class="text-left d-flex align-items-center mb-3 position-relative debate-div-1">
+            <div class="mr-3">
+              <img src="images/joe-biden.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+          <div class="d-flex justify-content-between align-items-center debate-div-2">  
+            <p class="debate-p pt-4">By Doug Gordon</p>
+            <img src="images/doug-gordon.webp" class="rounded-circle opinion-img" alt="img">
+          </div>
+
+        </div>
+        
+
+        <div class="latest-news mt-5">
+          <p class="text-secondary h-title">LATEST NEWS</p>
+
+          <div class="text-left d-flex mb-3 border-bottom pb-2">
+            <div class="mr-3">
+              <img src="images/joe-biden-bernie-sanders.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3 border-bottom pb-2">
+            <div class="mr-3">
+              <img src="images/joe-biden-bernie-sanders.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3 border-bottom pb-2">
+            <div class="mr-3">
+              <img src="images/joe-biden-bernie-sanders.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3 border-bottom pb-2">
+            <div class="mr-3">
+              <img src="images/joe-biden-bernie-sanders.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+
+          <div class="text-left d-flex mb-3 pb-2">
+            <div class="mr-3">
+              <img src="images/joe-biden-bernie-sanders.webp" class="rounded-0 round-0-img" alt="img">
+            </div>
+            <div>
+              <p>Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</p>              
+            </div>
+          </div>
+
+        </div>
+
+
+
         <div class="insights">Insights</div>
       </div>
-    </div> -->
+
+    </section>
 
   
       <!-- <section class="left">
