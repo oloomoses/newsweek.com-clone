@@ -2,10 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-body {
-  font-family: "Roboto Condensed", serif;
+.h-title {
+  Font-size: 16px;  
+  Font-weight: 700;  
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.body-header {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;;
 }
 
 .img-logo {
@@ -99,15 +109,35 @@ main {
   font-weight: 900;
 }
 
+.jumbotron {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jumbotron-img {
+  width: 50px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+  
+ 
+}
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+@media (max-width: 767.98px) { 
+
+}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) { 
+
+}
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) { 
+  
+
+}
