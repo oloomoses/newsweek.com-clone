@@ -36,6 +36,19 @@ p {
   
 }
 
+.heroes-header {
+  font-family: Lora, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(39, 39, 39);
+}
+
+.heroes-content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+}
+
 .more-stories-header {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 17px;
@@ -104,19 +117,30 @@ p {
 
 }
 
+aside,
+footer,
 main {
   max-width: 1320px;
   background: white;
 }
 
+
 .img-top {
   width: 100%;
+  
 }
 
 .opinion-img {
   width: 60px;
   background: red;
   z-index: 1;
+}
+
+.magazine-image {
+  width: 100%;
+  /* height: 64%;
+  margin: 0;
+  padding: 0; */
 }
 
 .round-0-img {
@@ -153,12 +177,17 @@ main {
   margin-left: auto;
 }
 
+.n-logo{
+  width: 30px;
+}
+
 .jumbotron-img {
   width: 50px;
 }
 
 .latest-news-a:hover,
-.debate-a:hover {
+.debate-a:hover,
+.heroes-a:hover {
   text-decoration: none;
 }
 
@@ -174,24 +203,30 @@ main {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-  
- 
-}
-
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-
+@media screen and (min-width: 767.98px) { 
+  .mt-n2 {
+    margin-top: -3em;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+@media screen and (min-width: 991.98px) { 
+  .mt-n2 {
+    height: 100% !important;
+    margin-top: -3em !important;
+  }
 
+  .magazine-image {
+    /* width: 100%; */
+    height: 64%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+@media (min-width: 1199.98px) { 
   
 
 }
