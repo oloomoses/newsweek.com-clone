@@ -18,9 +18,11 @@ p {
   color: rgba(3, 3, 3, 0.4);
 }
 
+.slide-heading,
+.slideshow-header,
 .body-header {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   color: #000;;
@@ -124,24 +126,21 @@ main {
   background: white;
 }
 
-
-.img-top {
-  width: 100%;
-  
-}
-
 .opinion-img {
   width: 60px;
   background: red;
   z-index: 1;
 }
 
-.magazine-image {
+.magazine-image,
+.slideshow-image,
+.editor-pick-image,
+.img-top {
   width: 100%;
 }
 
 .round-0-img {
-  width: 100px;
+  width: 100px !important;
 }
 
 .debate-div-1 {
@@ -199,6 +198,10 @@ main {
   color: red;
 }
 
+.mt-n1 {
+  margin-top: -2em !important;
+}
+
 .red-space:hover,
 .sign-in:hover {
   text-decoration: none;
@@ -213,14 +216,16 @@ main {
   text-decoration: none;
 }
 
+.slide-heading,
 .white-space:hover,
 .subscribe:hover,
 .opinion-a:hover,
 .left-headers:hover {
   text-decoration: none;
-  color: red;
+  color: red !important;
 }
 
+.slideshow-header-a:hover,
 .magazine-header-a:hover,
 .more-stories-a:hover,
 .body-header-a:hover {
