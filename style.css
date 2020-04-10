@@ -202,6 +202,33 @@ main {
   margin-top: -2em !important;
 }
 
+.copyright,
+.editions-footer-text,
+.footer-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+  margin-right: 10px;
+  /* padding: 20px 0; */
+
+}
+
+.icons a {
+  margin-right: 10px;
+  color: rgb(102, 102, 102);
+}
+
+.editions-footer-text {
+  font-weight: 700;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .red-space:hover,
 .sign-in:hover {
   text-decoration: none;
@@ -238,6 +265,30 @@ main {
   .mt-n2 {
     margin-top: -3em;
   }
+
+  .footer-links a {
+    border-right: 1px solid;
+    padding-right: 10px;
+  }
+
+  .newsweek {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: baseline;
+  }
+
+  .copyright {
+    margin-left: 10px;
+    /* margin-top: 20px; */
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
 }
 
 /* Medium devices (tablets, less than 992px) */
