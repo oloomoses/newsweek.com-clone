@@ -88,7 +88,7 @@ p {
 
 .lg-navbar {
   max-width: 1320px !important;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .subscribe {
@@ -103,14 +103,6 @@ p {
   font-size: 900;
 }
 
-.nav-logo {
-  width: 30em;
-}
-
-.link {
-  top: 6.7em;
-  background: white;
-}
 
 .nav-link {
   color: black;
@@ -222,6 +214,32 @@ main {
 
 .editions-footer-text {
   font-weight: 700;
+}
+
+.bottom-jumbotron {
+  width: 100%;
+}
+
+.width-50 {
+  width: 40%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.card-btn {
+  width: 120px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 2px;
+  background: red;
+  color: white;
+}
+
+.card-top-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: red;
 }
 
 .footer-links a:hover {

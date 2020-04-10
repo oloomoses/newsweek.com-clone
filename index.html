@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-sticky d-block d-lg-none d-xl-none ">
+    <nav class="navbar navbar-expand-lg navbar-sticky d-block d-lg-none d-xl-none position-sticky">
       <div class="container-fluid">
         <a class="nabvar-brand" href="#"><img class="img-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
       
@@ -25,17 +25,12 @@
       </div>
     </nav>
     
-    <!-- <div class="masterhead">
-      <div class="container-fluid">
-        <div class="text-center">Welcome</div>
-      </div>
-    </div> -->
 
-    <div class="d-none d-lg-block mr-auto ml-auto lg-navbar">
-        <nav class="container-fluid navbar-sticky d-flex justify-content-between align-items-baseline">
+    <div class="d-none d-lg-block mr-auto ml-auto lg-navbar position-relative">
+        <nav class="container-fluid navbar-sticky d-flex justify-content-between align-items-baseline p-4">
           <div class="navbar-date">Tue, Mar 31, 2020</div>
 
-          <a href="#"><img class="nav-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
+          <a href="#"><img class="nav-logo" src="images/nwlogo.png" alt="Logo"></a>
 
           <div class="nav-anchor-class d-inline-block">
             <a class="sign-in" href="#">SIGN IN</a>
@@ -43,20 +38,23 @@
           </div>    
         </nav>
 
-        <div class="link position-absolute p-2 border-bottom">
-          <ul class="nav navbar-expand-md justify-content-evenly">
-            <li class="nav-item border-right"> <a class="nav-link" href="#">U.S.</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">World</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Business</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Tech & Science</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Culture</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Newsgeek</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Sports</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Health</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">The Debate</a></li>
-            <li class="nav-item border-right"> <a class="nav-link" href="#">Vantage</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Wather</a> </li>
-          </ul>  
+        <div class="link">            
+            <a class="navigation-link border-right" href="#">U.S.</a></li>
+            <a class="navigation-link border-right" href="#">World</a>
+            <a class="navigation-link border-right" href="#">Business</a>
+            <a class="navigation-link border-right" href="#">Tech & Science</a>
+            <a class="navigation-link border-right" href="#">Culture</a>
+            <a class="navigation-link border-right" href="#">Newsgeek</a>
+            <a class="navigation-link border-right" href="#">Sports</a>
+            <a class="navigation-link border-right" href="#">Health</a>
+            <a class="navigation-link border-right" href="#">The Debate</a>
+            <a class="navigation-link border-right" href="#">Vantage</a>
+            <a class="navigation-link border-right" href="#">Wather</a>
+        </div>      
+         
+          <!-- <form class="f-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form> -->
 
           
         </div>
@@ -1072,7 +1070,38 @@
 
     </section>
 
-    
+    <section class="row text-left">
+
+      <div class="col-md-7 col-lg-8">
+        <div class="card-top-title">SUBSCRIBE</div>
+        <div class="jumbotron bottom-jumbotron d-flex align-items-center p-5">
+          <img src="images/cover-april-10-2020.jpg" alt="cover">
+          <div class="card-body">
+            <div class="card-title body-header">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</div>
+            <p class="card-text">All Access + Weekly Delivery.
+              Choose A Membership That's Perfect for You!</p>
+
+              <a href="#"><p class="card-btn">SUBSCRIBE ></p></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="card-top-title">NEWSLETER</div>
+        <div class="border d-flex align-items-center">
+          <img src="images/per-president-01.webp" class="width-50" alt="...">
+          <div class="card-body">
+            <p class="card-title body-header">The Starting 5</p></a>
+            <p class="card-text">
+              See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+            </p>
+
+            <a href="#"><p class="card-btn">SIGN UP ></p></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
   </aside>
   
