@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
 }
 
 p {
@@ -91,6 +92,13 @@ p {
   margin-bottom: 1em;
 }
 
+.navbar-date {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
 .subscribe {
   background: white;
   color: red;
@@ -103,12 +111,32 @@ p {
   font-size: 900;
 }
 
+.f-inline{
+  margin-left: -1.5em;
+}
 
-.nav-link {
+.box-1 {
+  width: 100px;
+  background: red;
+  top: 0;
+  right: 0;
+  display: block;
+  content: "";
+  height: 20px;
+  border-left: 13px solid white;
+  border-top: 20px solid red;
+}
+
+.link a {
+  font-size: 1.15rem;
+  font-weight: 700;
   color: black;
-  font-weight: 900;
-  font-size: 1rem;
+  white-space: nowrap;
+}
 
+.fm-control {
+  width: 60px;
+  border: none;
 }
 
 aside,
@@ -261,6 +289,7 @@ main {
   text-decoration: none;
 }
 
+.link a:hover,
 .slide-heading,
 .white-space:hover,
 .subscribe:hover,

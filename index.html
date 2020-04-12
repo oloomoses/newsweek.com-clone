@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-sticky d-block d-lg-none d-xl-none position-sticky">
+    <nav class="navbar navbar-expand-lg navbar-sticky d-lg-none d-xl-none sticky-top">
       <div class="container-fluid">
         <a class="nabvar-brand" href="#"><img class="img-logo" src="images/Newsweek_Logo.svg" alt="Logo"></a>
       
@@ -26,7 +26,7 @@
     </nav>
     
 
-    <div class="d-none d-lg-block mr-auto ml-auto lg-navbar position-relative">
+    <div class="d-none d-lg-block mr-auto ml-auto lg-navbar">
         <nav class="container-fluid navbar-sticky d-flex justify-content-between align-items-baseline p-4">
           <div class="navbar-date">Tue, Mar 31, 2020</div>
 
@@ -38,23 +38,42 @@
           </div>    
         </nav>
 
-        <div class="link">            
-            <a class="navigation-link border-right" href="#">U.S.</a></li>
-            <a class="navigation-link border-right" href="#">World</a>
-            <a class="navigation-link border-right" href="#">Business</a>
-            <a class="navigation-link border-right" href="#">Tech & Science</a>
-            <a class="navigation-link border-right" href="#">Culture</a>
-            <a class="navigation-link border-right" href="#">Newsgeek</a>
-            <a class="navigation-link border-right" href="#">Sports</a>
-            <a class="navigation-link border-right" href="#">Health</a>
-            <a class="navigation-link border-right" href="#">The Debate</a>
-            <a class="navigation-link border-right" href="#">Vantage</a>
-            <a class="navigation-link border-right" href="#">Wather</a>
+        <div class="row border-bottom text-left py-3 mx-auto navigation-menu position-relative">
+          <div class="col-md-10 link d-flex justify-content-around">            
+              <a class="navigation-link" href="#">U.S.</a></li>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">World</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Business</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Tech & Science</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Culture</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Newsgeek</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Sports</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Health</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">The Debate</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Vantage</a>
+              <span class="border-right"></span>
+              <a class="navigation-link" href="#">Wather</a>
+          </div>
+
+          <form class="col f-inline">
+            <div class="container-inline">
+              <input class="fm-control" type="search" placeholder="Search" aria-label="Search">
+              <i class="fas fa-search search-icon"></i>
+            </div>            
+          </form>
+
+          <div class="box-1 position-absolute"></div>
         </div>      
-         
-          <!-- <form class="f-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </form> -->
+        
+          
 
           
         </div>
@@ -248,7 +267,7 @@
           </div>
         </div>
         
-        <div class="more-stories mt-4">
+        <div class="more-stories mt-4 sticky-top">
           <p class="h-title">MORE STORIES</p>
 
           <div class="text-left d-flex mb-3 border-top pt-3">
