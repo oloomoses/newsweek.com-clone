@@ -5,7 +5,7 @@
 
 This is a practical project to create a home page for the newsweek.com clone. The aim is to help me learn the concepts of bootstrap, html, CSS, typography and web responsiveness.
 
-![screenshot](./images/screenshot1.jpg)
+![screenshot](/images/screenshot1.jpg)
 
 ## Built With:
 
