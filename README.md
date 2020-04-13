@@ -5,7 +5,7 @@
 
 This is a practical project to create a home page for the newsweek.com clone. The aim is to help me learn the concepts of bootstrap, html, CSS, typography and web responsiveness.
 
-![screenshot](./images/screenshot1.jpg)
+![screenshot](/images/Screenshot1.jpg)
 
 ## Built With:
 
@@ -17,7 +17,7 @@ This is a practical project to create a home page for the newsweek.com clone. Th
 
 ## Live Demo 
 
-[Live Demo](https://oloomoses.com)
+[Live Demo](https://rawcdn.githack.com/oloomoses/newsweek.com-clone/591f3d34bfd8806b73f13dd6c6346eb6c0bf39dc/index.html
 
 ## Prerequisites
 
