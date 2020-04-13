@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.h-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.slide-heading,
+.slideshow-header,
+.body-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+}
+
+.debate-header,
+.left-headers {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #000;
+}
+
+.heroes-header {
+  font-family: Lora, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(39, 39, 39);
+}
+
+.heroes-content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.more-stories-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+  line-height: 20px;
+}
+
+.author {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+  margin-top: -10px;
+}
+
+.magazine-heading,
+.magazine-header {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+}
+
+.img-logo {
+  width: 165px;
+}
+
+.navbar-sticky {
+  background: red;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.lg-navbar {
+  max-width: 1320px !important;
+  margin-bottom: 1em;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.navbar-date {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.subscribe {
+  background: white;
+  color: red;
+  font-size: 900;
+}
+
+.sign-in {
+  margin-right: 1em;
+  color: white;
+  font-size: 900;
+}
+
+.f-inline {
+  margin-left: -1.5em;
+}
+
+.box-1 {
+  width: 100px;
+  background: red;
+  top: 0;
+  right: 0;
+  display: block;
+  content: "";
+  height: 20px;
+  border-left: 13px solid white;
+  border-top: 20px solid red;
+}
+
+.link a {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+}
+
+.fm-control {
+  width: 60px;
+  border: none;
+}
+
+aside,
+footer,
+main {
+  max-width: 1320px;
+  background: white;
+}
+
+.opinion-img {
+  width: 60px;
+  background: red;
+  z-index: 1;
+}
+
+.magazine-image,
+.slideshow-image,
+.editor-pick-image,
+.img-top {
+  width: 100%;
+}
+
+.round-0-img {
+  width: 100px !important;
+}
+
+.debate-div-1 {
+  margin-top: 1em;
+  border-top: 4px solid #f73559;
+  border-bottom-style: double;
+  padding-bottom: 1em;
+}
+
+.debate-div-2 {
+  margin-top: -2em;
+  z-index: 1;
+}
+
+.vs {
+  background: black;
+  width: 40px;
+  color: silver;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.jumbotron {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.n-logo {
+  width: 30px;
+}
+
+.jumbotron-img {
+  width: 50px;
+}
+
+.red-space,
+.white-space {
+  margin: 5px 0;
+  padding: 0 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.red-space {
+  background: red;
+  color: white;
+}
+
+.white-space {
+  background: white;
+  color: red;
+}
+
+.mt-n1 {
+  margin-top: -2em !important;
+}
+
+.copyright,
+.editions-footer-text,
+.footer-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgb(102, 102, 102);
+  margin-right: 10px;
+}
+
+.icons a {
+  margin-right: 10px;
+  color: rgb(102, 102, 102);
+}
+
+.editions-footer-text {
+  font-weight: 700;
+}
+
+.bottom-jumbotron {
+  width: 100%;
+}
+
+.width-50 {
+  width: 40%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.card-btn {
+  width: 120px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 2px;
+  background: red;
+  color: white;
+}
+
+.card-top-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: red;
+}
+
+.card {
+  width: auto;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.red-space:hover,
+.sign-in:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.red-space:hover,
+.white-space:hover,
+.latest-news-a:hover,
+.debate-a:hover,
+.heroes-a:hover {
+  text-decoration: none;
+}
+
+.link a:hover,
+.slide-heading,
+.white-space:hover,
+.subscribe:hover,
+.opinion-a:hover,
+.left-headers:hover {
+  text-decoration: none;
+  color: red !important;
+}
+
+.slideshow-header-a:hover,
+.magazine-header-a:hover,
+.more-stories-a:hover,
+.body-header-a:hover {
+  text-decoration-color: red;
+}
+
+@media screen and (min-width: 767.98px) {
+  .mt-n2 {
+    margin-top: -3em;
+  }
+
+  .footer-links a {
+    border-right: 1px solid;
+    padding-right: 10px;
+  }
+
+  .newsweek {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .copyright {
+    margin-left: 10px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 991.98px) {
+  .mt-n2 {
+    height: 100% !important;
+    margin-top: -3em !important;
+  }
+
+  .magazine-image {
+    height: 64%;
+    margin: 0;
+    padding: 0;
+  }
+}
